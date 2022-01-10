@@ -5,11 +5,11 @@ mx.width = window.innerWidth;
 mx.height = window.innerHeight;
 
 const size = 20;
-const col = mx.width / size;
+var col = mx.width / size;
 
 const binary = '01';
 
-const drop = [0];
+var drop = [0];
 
 for (let i = 0; i < col; i++) {
     drop[i] = 0;
